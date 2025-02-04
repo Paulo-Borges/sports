@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
-    font-family: "Poppins", sans-serif;
+    box-sizing: border-box ;
+    font-family: "Poppins", "sans-serif";
 }
 
 :root {
@@ -27,25 +27,26 @@ body {
     background: var(--background-container);
 }
 
-.dashbord {
+.dashboard {
     background: var(--background-logo);
     width: 100%;
+    padding: 16px;
     height: 125px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
 }
-.dashbord-icon {
-    width: 392px;
-    /* border: 1px solid #fff; */
+.dashboard-icon {
+    width: 390px;
+    /* border: 1px solid #fff;  */
     display: flex;
     justify-content: space-between;
-    aling-items: center;
+    align-items: center;
     padding-left: 6px;
+    margin-bottom: 10px;
 }
 
-.dashbord-icon button {
+.dashboard-icon button {
     cursor: pointer;
    display: flex;
    align-items: end;
@@ -60,9 +61,9 @@ input {
     border-radius: 4px;
     border: none;
     margin: 0 auto;
-    width: 75%;
+    width: 98%;
     height: 40px;
-    padding:0 0 0 80px;
+    /* padding:0 0 0 80px; */
 }
 
 input::placeholder {
@@ -74,26 +75,60 @@ input::placeholder {
 }
 
 .input-container {
-    position: relative;
-
+    border-radius: 4px;
+    display: flex;
+    padding: 0px 10px 0px 10px;
+    /* justify-content: space-around; */
+    align-items: center;
+    background: #fff;
 }
 
-label {
-    font-family: Poppins, sans serif;
-    font-weight: 400;
-    font-size: 13px;
-    position: absolute;
-    top: 10px;
-    left: 25px;
+.box-input-filter {
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-self: center;
 }
+
+.box-input-filter button {
+    cursor: pointer;
+    border: none;
+    background: var(--background-container);
+    width: 24px;
+    height: 24px;
+    
+}
+
+.box-input {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.box-input button {
+    cursor: pointer;
+    border: none;
+    background: var(--background-container);
+}
+
+.box-search {
+}
+
+.input-all {
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+}
+
 
 .input-label {
-    position: absolute;
+    /* position: absolute; */
     top: 10px;
     left: 370px;
 }
 
-label button {
+span button {
     cursor: pointer;
     border: none;
     background: var(--background-container);
@@ -117,7 +152,7 @@ label button {
     cursor: pointer;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -126,7 +161,7 @@ label button {
     cursor: pointer;
     background: transparent;
     border: none;
-    weight: 24px;
+    width: 24px;
     height: 24px;
 }
 .runnings-button {
@@ -134,6 +169,17 @@ label button {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+    border: 2px solid transparent;
+
+}
+
+.runnings-button h2{
+    font-family: Poppins, "sans-serif";
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 1.25px;
+    
 }
 
 .runnings-button:hover {
@@ -146,7 +192,7 @@ label button {
 }
 
 .results h2 {
-    font-family: montserrat, sans-serif;
+    font-family: montserrat, "sans-serif";
     font-weight: 400;
     font-style: italic;
     font-size: 16px;
@@ -155,7 +201,7 @@ label button {
 }
 
 .results h3 {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, "sans-serif";
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
@@ -164,7 +210,7 @@ label button {
 }
 
 .runnings h2 {
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, "sans-serif";
     font-weight: 500;
     font-size: 13px;
     line-height: 10px;
@@ -174,7 +220,7 @@ label button {
 
 .all {
     display: flex;
-    color: #ECEFF1;
+    color: #eceff1;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
@@ -184,6 +230,7 @@ label button {
 .all button {
     border: none;
     cursor : pointer;
+    border: 2px solid transparent;
 
 }
 
@@ -206,6 +253,11 @@ label button {
     margin-top: 20px;
     /* margin-bottom: 20px; */
 }
+
+.foto {
+    border: 2px solid transparent;
+}
+
 .foto:hover {
     border: 2px solid var(--border-hover);
 }
@@ -236,7 +288,7 @@ label button {
 }
 
 .stockStar span {
-    font-family: Poppins, sans serif;
+    font-family: Poppins, "sans-serif";
     font-size: 9px;
     line-height: 10px;
     letter-spacing: 0.2px;
@@ -245,7 +297,7 @@ label button {
 }
 
 h3.stockStar {
-    font-family: Poppins, sans serif;
+    font-family: Poppins, "sans-serif";
     font-size: 9px;
     line-height: 10px;
     letter-spacing: 0.2px;
@@ -274,7 +326,7 @@ h3.stockStar {
 }
 
 .shoes h5 {
-    font-family: montserrat, sans-serif;
+    font-family: montserrat, "sans-serif";
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -315,6 +367,8 @@ h3.stockStar {
     font-size: 13px;
     line-height: 16px;
     letter-spacing: 1.25px;
+   border: 2px solid transparent;
+
 }
 
 .toCart button:hover {
@@ -323,6 +377,7 @@ h3.stockStar {
 
 .heart button {
     border: none;
+   border: 2px solid transparent;
 }
 
 .heart button:hover {
@@ -354,10 +409,11 @@ button.addColor {
     gap: 14px;
     padding: 10px 20px;
     border-radius: 5px;
+    
 }
 
 .next button:hover {
-   border: solid 2px #0029ff;
+   border: solid 3px #0029ff;
 }
 
 .pageButtons {
@@ -366,7 +422,7 @@ button.addColor {
 }
 
 .pageButtons button {
-    font-family: Poppins, sans serif;
+    font-family: Poppins, "sans-serif";
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
@@ -375,6 +431,8 @@ button.addColor {
     padding: 5px 10px;
     border: none;
     cursor: pointer;
+   border: 2px solid transparent;
+
 }
 
 .pageButtons button:hover {

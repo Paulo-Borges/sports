@@ -16,8 +16,8 @@
 </head>
 <body>
     <main class="container">
-        <header class="dashbord">
-            <div class="dashbord-icon">
+        <header class="dashboard">
+            <div class="dashboard-icon">
                 <button><img src="./assets/reorder.png" alt=""></button>
                 <button><img src="./assets/Vector.png" alt=""></button>
                 <button><img src="./assets/shopping_cart.png" alt=""></button>
@@ -25,10 +25,15 @@
             </div>
         
                 <div class="input-container">
-                    <input type="text" id="name" placeholder="|   Running Shoes">
-                    
-                    <label for="name">All  <button><i class="fa-solid fa-sort-down"></i></button></label>
-                    <label class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-lg"></i></button></label>
+    
+                    <div class="box-input-filter">
+                        <span  for="name">All</span>
+                        <button ><i class="fa-solid fa-sort-down"></i></button>
+                    </div>
+                    <div class="box-input">
+                    <input class="box-search" type="text" id="name" placeholder="|   Running Shoes">
+                    <span class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-2x"></i></button></span>
+                </div>
                 </div>
                
         </header>
@@ -45,8 +50,8 @@
                 
                 <div class="regua"></div>
                 <div class="runnings-button">
-                    <button><i class="fa-solid fa-tornado"></i></button>
-                    <h2>Sort By</h2>
+                    <button><i class="fa-solid fa-list"></i></button>
+                    <h2>SortBy</h2>
                 </div>
                 
 
