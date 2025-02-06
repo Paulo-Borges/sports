@@ -119,9 +119,9 @@ body {
 }
 
 @media (min-width: 400px) { 
-    /* .dashboard-desktop {
+    .dashboard-desktop {
         display: none;
-    } */
+    }
     .dashboard-icon {
         /* width: 390px; */
     border: 1px solid yellow; 
