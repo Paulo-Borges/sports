@@ -119,69 +119,28 @@ body {
 }
 
 @media (min-width: 400px) { 
+
     .dashboard-desktop {
         display: none;
     }
     .dashboard-icon {
-        /* width: 390px; */
     border: 1px solid yellow; 
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 6px;
-    margin-bottom: 10px; */
     }
- }
-
-
-@media (min-width: 600px) { 
-    /* .dashboard-desktop {
+    .input-container-desktop {
         display: none;
-    } */
-    .dashboard-icon {
-        /* width: 390px; */
-    border: 1px solid #fff; 
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 6px;
-    margin-bottom: 10px; */
-    }
- }
-
- @media (min-width: 800px) { 
-    .dashboard-icon {
-        /* width: 390px; */
-    border: 1px solid green; 
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 6px;
-    margin-bottom: 10px; */
-    }
- }
-
- @media (min-width: 1100px) { 
-    .dashboard-icon {
-        /* width: 390px; */
-    border: 1px solid orange; 
-   /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 6px;
-    margin-bottom: 10px; */
     }
  }
 
  @media (min-width: 1440px) { 
+    .dashboard {
+        height: 96px;  
+    }
       .dashboard-desktop {
         display: flex;
         padding: 0px 50px;
         justify-content: space-between;
-        height: 96px;
         width: 1440px;   
         background: var(--background-logo);
-        /* display: none; */
     }
  .dashboard-desktop button {
    cursor: pointer;
@@ -207,29 +166,16 @@ body {
     .dashboard-icon {
   display: none;
     }
-    .input-container {
-       display: none;
-    background: #7c7c7c;
-    }
-    .input-container-desktop {
-        border-radius: 4px;
-        display: flex;
-        padding: 0px 10px 0px 10px;
-        align-items: center;
-        background: #7c7c7c;
-     }
     
  }
 
- 
 
-
-.regua {
+ .regua {
     display: block;
     margin: 0 auto;
     width: .1%;
-    height: 25px;
-    background: black;
+    height: 32px;
+    background: #1e1e1e;
 }
 
 .running {
@@ -308,6 +254,49 @@ body {
     letter-spacing: 1.25px;
 }
 
+@media (min-width: 400px) { 
+    
+ }
+
+ @media (min-width: 1440px) { 
+    .running {
+        display:flex;
+        flex-direction: column;
+    }
+    .input-container {
+       display: none;
+    }
+    .input-container-desktop {
+        border-radius: 4px;
+        width: 1140px;
+        display: flex;
+        gap: 24px;
+        margin-top: 40px;
+        justify-content: space-between;
+        padding: 0px 10px 0px 10px;
+        align-items: center;
+     }
+     .regua-desktop {
+        display: block;
+        margin: 0 auto;
+        width: .1%;
+        height: 40px;
+        background: #1e1e1e;
+     }
+     .input-desktop-shoes {
+        display: flex;
+        background: #7c7c7c;
+        flex: 1;
+     }
+
+     .input-container-desktop .box-search {
+        background: #7c7c7c;
+     }
+    
+ }
+
+ 
+
 .all {
     display: flex;
     color: #eceff1;
@@ -333,6 +322,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (min-width: 400px) { 
+    
+}
+
+@media (min-width: 1440px) { 
+ 
+   
+   
 }
 
 .shoes {
@@ -488,6 +487,16 @@ button.addColor {
     position: relative;
 }
 
+@media (min-width: 400px) { 
+    
+}
+
+@media (min-width: 1440px) { 
+ 
+ 
+   
+}
+
 .next {
     margin-top: 30px;
 }
@@ -504,6 +513,16 @@ button.addColor {
 
 .next button:hover {
    border: solid 3px #0029ff;
+}
+
+@media (min-width: 400px) { 
+    
+}
+
+@media (min-width: 1440px) { 
+ 
+  
+   
 }
 
 .pageButtons {
@@ -534,3 +553,11 @@ button.clear {
     background: transparent;
 }
 
+@media (min-width: 400px) { 
+    
+}
+
+@media (min-width: 1440px) { 
+ 
+  
+}
