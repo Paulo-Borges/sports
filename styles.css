@@ -123,9 +123,6 @@ body {
     .dashboard-desktop {
         display: none;
     }
-    .dashboard-icon {
-    border: 1px solid yellow; 
-    }
     .input-container-desktop {
         display: none;
     }
@@ -154,10 +151,18 @@ body {
     .dashboard-desktop li {
         cursor: pointer;
         display: flex;
+        /* border-bottom: 1px solid transparent; */
         align-items: center;
         background: none;
         color: white;
         
+         }
+         a {
+            text-decoration: none;
+            color: var(--background-container);
+         }
+         .toggle.active {
+        border-bottom: 1px solid #ffc831;
          }
          .dashboard-desktop-group ul {
             gap: 40px;
@@ -269,11 +274,10 @@ body {
     .input-container-desktop {
         border-radius: 4px;
         width: 1140px;
+        gap: 20px;
         display: flex;
-        gap: 24px;
         margin-top: 40px;
         justify-content: space-between;
-        padding: 0px 10px 0px 10px;
         align-items: center;
      }
      .regua-desktop {
@@ -285,13 +289,69 @@ body {
      }
      .input-desktop-shoes {
         display: flex;
-        background: #7c7c7c;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 32px;
+        gap: 2px;
+        background: #eceff1;
         flex: 1;
      }
 
      .input-container-desktop .box-search {
-        background: #7c7c7c;
+        background: #eceff1;
      }
+     .input-container-desktop .box-input-filter {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+     }
+     .input-container-desktop .box-input-filter span{
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+     }
+     .input-container-desktop .box-input-filter button {
+        background: transparent;
+        width: 24px;
+        height: 24px;
+     }
+     .input-container-desktop .box-input-filter .box-search::placeholder {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+     }
+    .box-input-desktop {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .box-input-desktop .input-label button {
+        border: none;
+        background: transparent;
+    }
+    .input-desktop-cart {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: #ffc831;
+        width: 176px;
+        height: 56px;
+    }
+
+    .input-desktop-cart button {
+        background: none;
+        border: none;
+    }
+    .input-desktop-cart span {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 1.25px;
+    }
     
  }
 
