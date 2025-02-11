@@ -126,6 +126,9 @@ body {
     .filters {
         display: none;
     }
+    .home-search {
+        display: none;
+    }
  }
 
  @media (min-width: 768px) { 
@@ -171,6 +174,21 @@ body {
          }
     .header-icon {
   display: none;
+    }
+    .search {
+        margin-top: 40px;
+        gap: 30px;
+        width: 630px;
+    }
+    .filters {
+        width: 150px;
+    }
+    .search-regua {
+        display: block;
+        margin: 0 auto;
+        width: .1%;
+        height: 1500px;
+        background: #cccccc;
     }
     
  }
@@ -582,7 +600,9 @@ button.addColor {
 }
 
 @media (min-width: 768px) { 
-
+    .search {
+        display: flex;
+    }
     
 }
 
