@@ -16,21 +16,21 @@
 </head>
 <body>
     <main class="container">
-        <header class="dashboard">
-            <div class="dashboard-desktop">
-                <div class="dashboard-desktop-logo">
+        <header class="header">
+            <div class="header-desktop">
+                <div class="header-desktop-logo">
                     <button><img src="./assets/Vector.png" alt=""></button>
                 </div>
-                <div class="dashboard-desktop-group">
+                <div class="header-desktop-group">
                     <ul >
-                        <li class="dashboard-desktop-products toggle" onclick="activeToggle()"><a href="#">Products</a></li>
-                        <li class="dashboard-desktop-track toggle" onclick="activeToggle()"><a href="#">track Order</a></li>
-                        <li class="dashboard-desktop-contact toggle" onclick="activeToggle()"><a href="https://github.com/Paulo-Borges">Contact</a></li>
-                        <li class="dashboard-desktop-about toggle" onclick="activeToggle()"><a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/">About Us</a></li>
+                        <li class="header-desktop-products toggle" onclick="activeToggle()"><a href="#">Products</a></li>
+                        <li class="header-desktop-track toggle" onclick="activeToggle()"><a href="#">track Order</a></li>
+                        <li class="header-desktop-contact toggle" onclick="activeToggle()"><a href="https://github.com/Paulo-Borges">Contact</a></li>
+                        <li class="header-desktop-about toggle" onclick="activeToggle()"><a href="https://www.linkedin.com/in/paulo-borges-de-almeida-b543b3242/">About Us</a></li>
                       </ul>
                 </div>
             </div>
-            <div class="dashboard-icon">
+            <div class="header-icon">
                 <button><img src="./assets/reorder.png" alt=""></button>
                 <button><img src="./assets/Vector.png" alt=""></button>
                 <button><img src="./assets/shopping_cart.png" alt=""></button>
@@ -52,7 +52,6 @@
         </header>
         <section class="running">
 
-
             <div class="input-container-desktop">
 
                 <div class="input-desktop-shoes">
@@ -65,9 +64,9 @@
                     </div>
 
                     <div class="box-input-desktop">
-                        <span class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-2x"></i></button></span>
+                        <span class="input-label" for="name"><button><i class="fa-solid fa-xmark fa-1x"></i></button></span>
                         <div class="regua-desktop"></div>
-                        <span class="input-label" for="name"><button><i class="fa-solid fa-magnifying-glass fa-2x"></i></button></span>
+                        <span class="input-label" for="name"><button><i class="fa-solid fa-magnifying-glass fa-1x"></i></button></span>
                     </div>
                </div>
 
@@ -82,6 +81,7 @@
                 <h3>288 Results</h3>
             </div>
             <div class="runnings">
+                
                 <div class="runnings-button">
                     <button><i class="fa-solid fa-filter"></i></button>
                     <h2>Filter</h2>
@@ -97,7 +97,7 @@
             </div>  
         </section>
 
-       <div class="all">
+       <section class="all">
         <div >
             <button >
                 All 
@@ -131,9 +131,85 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
-       </div>
-
-       <div class="shoes">
+    </section>
+    <section class="search">
+        <div class="filters">
+            <span><i class="fa-solid fa-filter">Filters</i></span>
+            <hr>
+            <div class="filter-clear">
+                <span>Applied Filters</span>
+                <span>clear all</span>
+            </div>
+            <section class="filter-all">
+                <div >
+                    <button >
+                        All 
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+        
+                <div>
+                    <button>
+                        Running Shoes
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+        
+                <div>
+                    <button>
+                        Red
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                </section>
+                <hr>
+                <div>
+                    <span>Category</span>
+                    <span><i class="fa-solid fa-arrow-up"></i></span>
+                    <input type="checkbox">
+                    <label for="">All</label>
+                    <input type="checkbox">
+                    <label for="">Runnings Shoes</label>
+                    <input type="checkbox">
+                    <label for="">Category 3</label>
+                    <input type="checkbox">
+                    <label for="">Category 4</label>
+                    <hr>
+                </div>
+                <div>
+                    <span>Stock Status</span>
+                    <span><i class="fa-solid fa-arrow-up"></i></span>
+                    <input type="checkbox">
+                    <label for="">in Stock</label>
+                    <input type="checkbox">
+                    <label for="">Out of Stock</label>
+                    <hr>
+                </div>
+                <div>
+                    <span>Size</span>
+                    <span><i class="fa-solid fa-arrow-down"></i></span>
+                    <hr>
+                </div>
+                <div>
+                    <span>Color</span>
+                    <span><i class="fa-solid fa-arrow-up"></i></span>
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                    <input type="checkbox">
+                </div>
+                </div>
+         
+        <div class="searchs">
+        <div class="home-search"></div>
+       <section class="shoes">
         <div>
             <div class="foto">
                 <img src="./assets/Rectangle 16.png" alt="">
@@ -194,9 +270,107 @@
 
         </div>
  
-       </div>
 
-       <section class="shoes">
+        <div class="relative">
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">  
+            </div>
+            <div class="absolute">
+                <img src="./assets/Group 20.png" alt=""> 
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div>
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <div class="shoes6">
+            <h5>
+                $200
+               </h5>
+               <h6>
+                $400
+               </h6>
+           </div>
+           
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div>
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div>
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div>
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div>
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div>
+                <h3 class="green">in Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button>+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+ 
+
         <div class="relative">
             <div class="foto">
                 <img src="./assets/Rectangle 16.png" alt="">  
@@ -265,6 +439,66 @@
            </div>
 
         </div>
+
+        <div>
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
+
+        <div>
+            <div class="foto">
+                <img src="./assets/Rectangle 16.png" alt="">
+            </div>
+            <h2>Ultraboost light Running shoes</h2>
+            <span>Running Shoes</span>
+           <div class="stock">
+            <div class="stockStar">
+                <img src="./assets/star.png" alt="">
+                <span>5.0 (10 Reviews)</span>
+            </div>
+            <div class="stockStar">
+                <h3 class="red">Out of Stock</h3>
+            </div>
+           </div>
+           <h5>
+            $200
+           </h5>
+           <div class="add">
+            <div class="toCart">
+                <button class="addColor">+ Add To Cart</button>
+            </div>
+
+            <div class="heart">
+                <button><img src="./assets/Group 6.png" alt=""></button>
+            </div>
+           </div>
+
+        </div>
  
        </section>
 
@@ -279,7 +513,8 @@
         <button><i class="fa-solid fa-chevron-left"></i></button>
         <button><i class="fa-solid fa-chevron-right"></i></button>
        </div>
-       
+        </div>
+       </section>
 
     </main>
 
