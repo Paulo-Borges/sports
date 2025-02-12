@@ -178,7 +178,7 @@ body {
     .search {
         margin-top: 40px;
         gap: 30px;
-        width: 630px;
+        width: 640px;
     }
     .filters {
         width: 150px;
@@ -186,11 +186,125 @@ body {
     .search-regua {
         display: block;
         margin: 0 auto;
-        width: .1%;
+        width: .03%;
         height: 1500px;
         background: #cccccc;
     }
-    
+
+    .filters-regua {
+        display: block;
+        margin: 0 auto;
+        width: 170px;
+        height: .03%;
+        background: #cccccc;
+
+    }
+    .filters-logo {
+       gap: 10px;
+       margin-bottom: 10px;
+    }
+    .filters-logo span {
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: 0px;
+        color: 1e1e1e;
+    }
+    .filter-clear {
+        display: flex;
+        width: 190px;
+        gap: 2px;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .filter-clear span:first-child {
+        font-family: montserrat;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+        color: 1e1e1e;
+        width: 120px;
+    }
+    .filter-clear span:last-child {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        color: 1e1e1e;
+        width: 80px;
+    }
+
+.filter-all {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    width: 180px;
+
+}
+.filter-all button {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+.filter-all span {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: 1e1e1e;
+    width: 40px;
+}
+.filter-categories {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    display:flex;
+    justify-content: space-between;
+}
+.filter-stock {
+    display: flex;
+    justify-content: space-between;
+}
+.filters-stock {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter-size {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.filter-color {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#filter-check input[type="checkbox"] {
+    -webkit-appearance: none;
+    background-color: red;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+}
+
+
  }
 
  @media (min-width: 1440px) { 
