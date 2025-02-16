@@ -133,6 +133,7 @@ body {
     .home-search {
         display: none;
     }
+   
  }
 
  @media (min-width: 768px) { 
@@ -146,6 +147,9 @@ body {
         justify-content: space-between;
         width: 768px;   
         background: var(--background-logo);
+    }
+    .header-desktop-products {
+        border-bottom: 1px solid transparent;
     }
  .header-desktop button {
    cursor: pointer;
@@ -164,7 +168,7 @@ body {
         color: white;
         
          }
-         a {
+    .header-desktop a {
             text-decoration: none;
             color: var(--background-container);
          }
@@ -244,11 +248,9 @@ body {
 
 .filter-all {
     display: flex;
-    flex: 1;
     justify-content: center;
-    gap: 5px;
     align-items: center;
-    
+    gap: 10px;
 }
 .filter-all button {
     display: flex;
@@ -256,9 +258,13 @@ body {
     justify-content: center;
     align-items: center;
     border: none;
-
 }
-.filter-all span {
+.filter-all-running {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .filter-all span {
     font-family: Poppins;
     font-weight: 400;
     font-size: 13px;
@@ -266,7 +272,7 @@ body {
     letter-spacing: 0.25px;
     color: 1e1e1e;
     width: 40px;
-}
+} */
 .filter-categories {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -276,7 +282,6 @@ body {
 
 .filter-button {
     font-family: Poppins;
-    color: green;
     display: flex;
     font-weight: 400;
     font-size: 13px;
@@ -437,6 +442,7 @@ body {
 
 }
 
+
  }
 
 
@@ -522,6 +528,7 @@ body {
     color: var(--background-logo);
     letter-spacing: 1.25px;
 }
+
 
  @media (min-width: 768px) { 
     .running {
@@ -892,13 +899,8 @@ button.clear {
 }
 
 
-@media (min-width: 767px) { 
-    .desktop-next-pageButton {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-        flex-direction: row;
-    }
+@media (min-width: 768px) { 
+ 
     .home-search-sort img {
         margin-top: 8px;
     }
@@ -950,6 +952,17 @@ button.clear {
         font-size: 16px;
         line-height: 16px;
         letter-spacing: 1.25px;
+    }
+    .desktop-next-pageButton {
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+        align-items: start;
+        flex-direction: row;
+    } 
+    .next {
+        margin-top: 20px;
+        padding: 5px 0px 0px 0px;
     }
     
 }
