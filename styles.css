@@ -119,7 +119,7 @@ body {
     left: 370px;
 }
 
-@media (max-width: 767px) { 
+@media (max-width: 768px) { 
 
     .header-desktop {
         display: none;
@@ -244,11 +244,11 @@ body {
 
 .filter-all {
     display: flex;
+    flex: 1;
     justify-content: center;
     gap: 5px;
     align-items: center;
-    width: 180px;
-
+    
 }
 .filter-all button {
     display: flex;
@@ -276,6 +276,7 @@ body {
 
 .filter-button {
     font-family: Poppins;
+    color: green;
     display: flex;
     font-weight: 400;
     font-size: 13px;
@@ -841,18 +842,6 @@ button.addColor {
 }
 
 
-
-@media (min-width: 768px) { 
-
-    
-}
-
-@media (min-width: 1440px) { 
- 
-  
-   
-}
-
 .pageButtons {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -902,16 +891,16 @@ button.clear {
   
 }
 
-@media (max-width: 767px) { 
-    
-}
 
-@media (min-width: 768px) { 
+@media (min-width: 767px) { 
     .desktop-next-pageButton {
         display: flex;
         justify-content: end;
         align-items: center;
         flex-direction: row;
+    }
+    .home-search-sort img {
+        margin-top: 8px;
     }
     
 }
@@ -927,4 +916,40 @@ button.clear {
         
         width: 1124px;
     }
+    .home-search {
+        max-width: 860px;
+    }
+   
+    .shoes {
+        max-width: 860px;
+        gap: 22px;
+
+    }
+    .shoes h2 {
+        font-weight: 500;
+        width: 256px;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: var(--background-logo);
+        word-break: break-word;
+    }
+    .shoes span {
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        font-style: italic;
+    }
+    .toCart button {
+        display: flex;
+        justify-content: center;
+        width: 209px;
+        flex: 1;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 1.25px;
+    }
+    
 }
