@@ -190,6 +190,7 @@ body {
     }
     .filters {
         width: 150px;
+        cursor: pointer;
     }
     .search-regua {
         display: block;
@@ -254,6 +255,7 @@ body {
 }
 .filter-all button {
     display: flex;
+    cursor: pointer;
     gap: 5px;
     justify-content: center;
     align-items: center;
