@@ -25,6 +25,7 @@ body {
 }
 .container {
     display: flex;
+    padding: 0px 0px;
     flex-direction: column;
     align-items: center;
     background: var(--background-container);
@@ -119,7 +120,7 @@ body {
     left: 370px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 430px) { 
 
     .header-desktop {
         display: none;
@@ -136,7 +137,7 @@ body {
    
  }
 
- @media (min-width: 768px) { 
+ /* @media (min-width: 768px) { 
     .header {
         height: 76px;  
     }
@@ -274,7 +275,7 @@ body {
     letter-spacing: 0.25px;
     color: 1e1e1e;
     width: 40px;
-} */
+} 
 .filter-categories {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -445,7 +446,7 @@ body {
 }
 
 
- }
+ } */
 
 
  .regua {
@@ -532,7 +533,7 @@ body {
 }
 
 
- @media (min-width: 768px) { 
+ /* @media (min-width: 768px) { 
     .running {
         display:flex;
         flex-direction: column;
@@ -633,7 +634,7 @@ body {
         display: none;
     }
     
- }
+ } */
 
 .all {
     display: flex;
@@ -818,10 +819,10 @@ button.addColor {
     position: relative;
 }
 
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
     .search {
         display: flex;
-    }
+    } */
     
 }
 .next {
@@ -901,15 +902,15 @@ button.clear {
 }
 
 
-@media (min-width: 768px) { 
+/* @media (min-width: 768px) { 
  
     .home-search-sort img {
         margin-top: 8px;
     }
     
-}
+} */
 
-@media(min-width: 1440px ) {
+/* @media(min-width: 1440px ) {
     .header-desktop {
         width: 1440px;
     }
@@ -967,9 +968,9 @@ button.clear {
         padding: 5px 0px 0px 0px;
     }
     
-}
+} */
 
-@media(min-width: 1920px) {
+/* @media(min-width: 1920px) {
     .header-desktop {
         display: none;
     }
@@ -1015,60 +1016,86 @@ button.clear {
     .filter-check {
         gap: 16px;
     }
-    .filter-check-red input[type="checkbox"] {
+    .filter-check-red input[type="checkbox"] {//
         width: 24px;
+        border-radius: 0px;
         height: 24px;
     }
-    .filter-check-orange input[type="checkbox"] {
+    .filter-check-orange input[type="checkbox"] {//
         background-color: orange;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-green input[type="checkbox"] {
+    .filter-check-green input[type="checkbox"] {//
         background-color: #7cfc00;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-blue input[type="checkbox"] {
+    .filter-check-blue input[type="checkbox"] {//
         background-color: #00ffff;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-SlateBlue input[type="checkbox"] {
+    .filter-check-SlateBlue input[type="checkbox"] {//
         background-color: #0000cd;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-pink input[type="checkbox"] {
+    .filter-check-pink input[type="checkbox"] {//
         background-color: #ff00ff;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-purple input[type="checkbox"] {
+    .filter-check-purple input[type="checkbox"] {//
         background-color: pink;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-DarkBlue input[type="checkbox"] {
+    .filter-check-DarkBlue input[type="checkbox"] {//
         background-color: #00bfff;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-Salmon input[type="checkbox"] {
+    .filter-check-Salmon input[type="checkbox"] {//
         background-color: red;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-black input[type="checkbox"] {
+    .filter-check-black input[type="checkbox"] {//
         background-color: black;
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-    .filter-check-transparent input[type="checkbox"] {
+    .filter-check-transparent input[type="checkbox"] {//
         background-color: transparent;
+        border-radius: 0px;
         border: 1px solid gray;
         width: 24px;
         height: 24px;
     }
+    .home-search-results {
+        width: 452px;
+    }
+    .home-search-results-shoes {
+        margin-top: 10px;
+    }
+    .home-search-sort {
+        width: 141px;
+        gap: 14px;
+        height: 48px;
+    }
+    .shoes .foto {
+        width: 292;
+        height: ;
+    }
     
-}
+} */
