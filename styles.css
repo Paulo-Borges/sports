@@ -189,7 +189,7 @@ body {
         width: 640px;
     }
     .filters {
-        width: 150px;
+        width: 256px;
         cursor: pointer;
     }
     .search-regua {
@@ -965,6 +965,110 @@ button.clear {
     .next {
         margin-top: 20px;
         padding: 5px 0px 0px 0px;
+    }
+    
+}
+
+@media(min-width: 1920px) {
+    .header-desktop {
+        display: none;
+    }
+    .full {
+        display: flex;
+        justify-content: center;
+        width: 1920px;
+        height: 160px;
+        background: #eceff1;
+    }
+    .input-desktop-shoes {
+        background: white;
+    }
+    .box-input-filter .box-search {
+        background: white;
+    }
+    .input-container-desktop { 
+        width: 1250px; 
+        gap: 24px;
+     }
+     .box-input-desktop span:first-child {
+        display: none;
+     }
+     .filters {
+        width: 248px;
+    }
+     .filters-regua { 
+        width: 240px;
+    }
+    .filter-clear {
+        width: 256px;
+        justify-content: space-between;  
+    }
+    .filter-clear span:first-child {
+        font-size: 16px;  
+    }
+    .filter-all {
+        display: flex;
+        justify-content: start;
+        margin: 10px 0px;
+        width: 256px;
+    }
+    .filter-check {
+        gap: 16px;
+    }
+    .filter-check-red input[type="checkbox"] {
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-orange input[type="checkbox"] {
+        background-color: orange;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-green input[type="checkbox"] {
+        background-color: #7cfc00;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-blue input[type="checkbox"] {
+        background-color: #00ffff;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-SlateBlue input[type="checkbox"] {
+        background-color: #0000cd;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-pink input[type="checkbox"] {
+        background-color: #ff00ff;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-purple input[type="checkbox"] {
+        background-color: pink;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-DarkBlue input[type="checkbox"] {
+        background-color: #00bfff;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-Salmon input[type="checkbox"] {
+        background-color: red;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-black input[type="checkbox"] {
+        background-color: black;
+        width: 24px;
+        height: 24px;
+    }
+    .filter-check-transparent input[type="checkbox"] {
+        background-color: transparent;
+        border: 1px solid gray;
+        width: 24px;
+        height: 24px;
     }
     
 }
