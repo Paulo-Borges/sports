@@ -25,7 +25,6 @@ body {
 }
 .container {
     display: flex;
-    padding: 0px 0px;
     flex-direction: column;
     align-items: center;
     background: var(--background-container);
@@ -459,8 +458,6 @@ h3.stockStar {
     line-height: 10px;
     letter-spacing: 0.2px;
     word-break: break-word;
-    
-
 }
 
 .green {
@@ -854,23 +851,72 @@ button.clear {
     }  
  }
 
- @media (max-width: 540px) { 
-    .header {
+ @media (min-width: 431px) and (max-width: 540px){ 
+    .header-desktop {
+        display: none;
+    }
+    .input-container-desktop {
+        display: none;
+    }
+    .filters {
+        display: none;
+    }
+    .home-search-results {
+        display: none;
+    }
+    .home-search-sort span {
+        display: none;
+    }
+    .home-search-sort img {
+        display: none;
+    }
+    .home-search-sort {
+        display: none;
+    }  
+    .container {
         width: 530px;
     }
-    .header-desktop {
-        display: flex;
-        justify-content: space-between;
+    .running {
+        width: 500px;
     }
-    .header-desktop-group ul {
-        display: flex;
+    .all {
+        width: 500px;
     }
-    .header-icon {
-        display: none;
-    }
-    .input-container {
-        display: none;
+    .shoes {
+        max-width: 500px;
+        gap: 6px;
     }
     
-    }  
+    .foto img {
+        width: 152px;
+        height: 152px;
+    }
+    .shoes h2 {
+        width: 154px;
+    }
+    .shoes-star span {
+        font-size: 10px;
+    }
+    .stock {
+        width: 154px;
+    }
+    .add {
+        width: 154px;
+    }
+    
+    .toCart button {
+        /* display: flex;
+        padding: 10px;
+        width: 100%;
+        background: #1e1e1e;
+        border: none;
+        color: #fff;
+        border-radius: 4px;
+        font-weight: 500; */
+        font-size: 10px;
+        /* line-height: 16px;
+        letter-spacing: 1.25px;
+       border: 2px solid transparent; */
+    
+    }
  }
