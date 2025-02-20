@@ -118,6 +118,9 @@ body {
     top: 10px;
     left: 370px;
 }
+.active {
+    border-bottom: 1px solid #ffc831;
+}
 
 .filter-categories {
     margin-top: 10px;
@@ -903,20 +906,44 @@ button.clear {
     .add {
         width: 154px;
     }
-    
     .toCart button {
-        /* display: flex;
-        padding: 10px;
-        width: 100%;
-        background: #1e1e1e;
-        border: none;
-        color: #fff;
-        border-radius: 4px;
-        font-weight: 500; */
         font-size: 10px;
-        /* line-height: 16px;
-        letter-spacing: 1.25px;
-       border: 2px solid transparent; */
-    
     }
+ }
+ @media (min-width: 541px) and (max-width: 1024px){ 
+    .header {
+        height: 76px;
+    }
+    .header-desktop {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-desktop-logo button{
+        background: transparent;
+        border: none;
+    }
+    .header-desktop-group ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 20px;
+    }
+    .container {
+        width: 990px;
+    }
+    .header-icon {
+        display: none;
+    }
+    .input-container {
+        display: none;
+    }
+    .input-container-desktop {
+        display: flex;
+        width: 790px;
+    }
+    .input-desktop-shoes {
+        display: flex;
+
+    }
+    
  }
