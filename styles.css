@@ -260,7 +260,7 @@ body {
     color: #1e1e1e;
 }
 .home-search-results-shoes {
-    font-family: montserrat;
+    font-family: Montserrat;
     font-weight: 400;
     font-style: italic;
     font-size: 24px;
@@ -347,7 +347,7 @@ body {
 }
 
 .results h2 {
-    font-family: montserrat, "sans-serif";
+    font-family: Montserrat, "sans-serif";
     font-weight: 400;
     font-style: italic;
     font-size: 16px;
@@ -483,7 +483,7 @@ h3.stockStar {
 }
 
 .shoes h5 {
-    font-family: montserrat, "sans-serif";
+    font-family: Montserrat, "sans-serif";
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -943,7 +943,7 @@ button.clear {
         gap: 24px;
         margin-top: 40px;
         justify-content: space-between;
-        align-item: center;
+        align-items: center;
         width: 790px;
     }
     .input-desktop-shoes {
@@ -1118,7 +1118,7 @@ button.clear {
     }
     .shoes {
         display: flex;
-        width: 550px;
+        max-width: 550px;
         flex-wrap: wrap;
 
     }
@@ -1177,7 +1177,7 @@ button.clear {
         gap: 24px;
         margin-top: 40px;
         justify-content: space-between;
-        align-item: center;
+        align-items: center;
         width: 1140px;
     }
     .input-desktop-shoes {
@@ -1249,7 +1249,7 @@ button.clear {
    .filters-regua { 
         display: block;
         margin: 0 auto;
-        height: .1%;
+        height: .01%;
         background: #cccccc;
         width: 240px;
     }
@@ -1328,7 +1328,7 @@ button.clear {
         margin: 0 auto;
         height: 1615px;
         background: #cccccc;
-        width: .1%;
+        width: .01%;
     }
    .searchs {
         width: 860px;
@@ -1342,39 +1342,82 @@ button.clear {
     .home-search-sort img {
         margin-top: 8px;
     }
-  /*    .foto img {
-         width: 160px;
-         height: 160px;
-    }
-    .shoes-container {
-        width: 150px;
-        gap: 15px;
+    .shoes-container .foto img {
+         width: 272px;
+         height: 272px;
     }
     .shoes {
         display: flex;
-        width: 550px;
+        max-width: 860px;
         flex-wrap: wrap;
-
+    } 
+     .shoes-container {
+        width: 272px;
     }
     .shoes-container h2 {
+        width: 256px;
         font-family: Poppins;
         font-weight: 500;
-        font-size: 13px;
-        line-height: 22px;
+        font-size: 15px;
+        line-height: 24px;
         letter-spacing: 0.5px;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
     }
+    .shoes-container span {
+        width: 166px;
+        font-family: Poppins;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+    .shoes-star span {
+        width: 98px;
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+    }
+    .green {
+        width: 51px;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+    }
+        .shoes-container h5 {
+            width: 65px;
+            font-family: Montserrat;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 24px;
+            letter-spacing: 1px;
+        }
     .add {
-        width: 150px;
+        width: 272px;
     }
     .toCart button {
-        font-family: Poppins;
-        font-weight: 400;
-        font-size: 11px;
-        line-height: 22px;
-        letter-spacing: 0.5px;
-    } */
+        display: flex;
+        justify-content: center;
+        width: 208px;
+    }
+    .heart button {
+        width: 40px;
+        height: 40px;
+    }
+    .heart-color {
+        background: #7c7c7c;
+    }
+    .desktop-next-pageButton {
+        display: flex;
+        justify-content: end;
+        gap: 100px;
+        flex-direction: row;
+    }
+    .pageButtons button {
+        margin-top: 16px;
+    }
     
  }
