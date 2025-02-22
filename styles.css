@@ -993,5 +993,154 @@ button.clear {
         background: transparent;
         border: none;
     }
+    .running {
+        display: none;
+    }
+    .all {
+        display: none;
+    }
+    .search {
+        display: flex;
+        width: 790px;
+        gap: 8px;
+        margin-top: 30px;
+    }
+    .filters {
+        width: 240px;
+    }
+    .filters-logo {
+        display: flex;
+        gap: 8px;
+    }
+    .filters-regua { 
+        display: block;
+        margin: 0 auto;
+        height: .1%;
+        background: #cccccc;
+        width: 240px;
+    }
+    .filter-clear {
+        display: flex;
+        margin-top: 16px;
+        justify-content: space-between;
+    }
+    .filter-clear span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .filter-clear span:last-child {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0.4px;
+        text-decoration: underline;
+    }
+    .filter-all {
+        display: flex;
+        width: 240px;
+        margin-bottom: 16px;
+        gap: 16px;
+    }
+    .filter-all button{
+        border: none;
+        padding: 0px 8px 0px 0px;
+        gap: 10px;
+    }
+    .category span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .category img {
+        width: 24px;
+        height: 24px;
+    }
+    .filter-categories label {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+    .filter-stock span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .filters-stock label {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+    }
+    .filter-color span:first-child {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.15px;
+    }
+    .search-regua {
+        display: block;
+        margin: 0 auto;
+        height: 1615px;
+        background: #cccccc;
+        width: .1%;
+    }
+    .searchs {
+        width: 550px;
+    }
+    .home-search-sort {
+        display: flex;
+        justify-content: center;
+        padding: 0px 8px;
+        border: solid 3px #1e1e1e1;
+    }
+    .home-search-sort img {
+        margin-top: 8px;
+    }
+    .foto img {
+         width: 160px;
+         height: 160px;
+    }
+    .shoes-container {
+        width: 150px;
+        gap: 15px;
+    }
+    .shoes {
+        display: flex;
+        width: 550px;
+        flex-wrap: wrap;
+
+    }
+    .shoes-container h2 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .add {
+        width: 150px;
+    }
+    .toCart button {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 22px;
+        letter-spacing: 0.5px;
+    }
     
  }
