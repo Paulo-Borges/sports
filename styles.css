@@ -1457,7 +1457,6 @@ button.clear {
      .header {
         display: none;
     }
-  
   .container {
         width: 1920px;
     }
@@ -1548,7 +1547,7 @@ button.clear {
     .search {
         display: flex;
         max-width: 1880px;
-        gap: 8px;
+        gap: 16px;
         margin-top: 30px;
     }
     .filters {
@@ -1639,8 +1638,8 @@ button.clear {
         display: block;
         margin: 0 auto;
         height: 1615px;
-        background: black;
-        width: .01%;
+        background: #eceff1;
+        width: .1%;
     }
    .searchs {
         max-width: 1592px;
@@ -1652,38 +1651,47 @@ button.clear {
     }
    .home-search-sort {
         display: flex;
+        width: 141px;
+        align-items: center;
         justify-content: center;
-        padding: 0px 8px;
-        border: solid 3px #1e1e1e1;
+        
+    }
+    .home-search-sort span:last-child {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.25px;
     }
     .home-search-sort img {
         margin-top: 8px;
     }
-    .filter-check input[type="checkbox"] {//
+    .filter-check input[type="checkbox"] {
+        border-radius: 0px;
         width: 24px;
         height: 24px;
     }
-   /*  .shoes-container .foto img {
-         width: 272px;
-         height: 272px;
+    .shoes-container .foto img {
+         width: 292px;
+         height: 291.77px;
     }
     .shoes {
         display: flex;
-        max-width: 860px;
+        max-width: 1592px;
         flex-wrap: wrap;
     } 
      .shoes-container {
-        width: 272px;
+        width: 292px;
     }
-    .shoes-container h2 {
-        width: 256px;
+   .shoes-container h2 {
+        width: 274px;
         font-family: Poppins;
         font-weight: 500;
         font-size: 15px;
         line-height: 24px;
         letter-spacing: 0.5px;
     }
-    .shoes-container span {
+     .shoes-container span {
         width: 166px;
         font-family: Poppins;
         font-style: italic;
@@ -1693,23 +1701,24 @@ button.clear {
         letter-spacing: 0.5px;
     }
     .shoes-star span {
-        width: 98px;
+        width: 124px;
         font-family: Poppins;
+        font-style: italic;
         font-weight: 300;
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.4px;
     }
     .green {
-        width: 51px;
+        width: 54px;
         font-family: Poppins;
         font-weight: 500;
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.4px;
     }
-        .shoes-container h5 {
-            width: 65px;
+    .shoes-container h5 {
+            width: 69px;
             font-family: Montserrat;
             font-weight: 600;
             font-size: 24px;
@@ -1722,16 +1731,16 @@ button.clear {
     .toCart button {
         display: flex;
         justify-content: center;
-        width: 208px;
+        width: 223px;
     }
     .heart button {
-        width: 40px;
-        height: 40px;
+        width: 42px;
+        height: 42px;
     }
     .heart-color {
         background: #7c7c7c;
     }
-    .desktop-next-pageButton {
+     .desktop-next-pageButton {
         display: flex;
         justify-content: end;
         gap: 100px;
@@ -1739,6 +1748,6 @@ button.clear {
     }
     .pageButtons button {
         margin-top: 16px;
-    } */
+    }
     
  }
